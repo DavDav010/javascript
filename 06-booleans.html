@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Booleans </title>
+    </head>
+    <body>
+       <script>
+        
+            // // axla es aris booleans cvladi romelic true da false s ganszagvraavs, aseve aq gvaq shedarebiti operatorebi > < >= <= eseni rogorc matematikashia da === es nishnavs tolias da !== es nishnavs ro ar udris.
+            // true
+            // false
+            // console.log(3 > 5);
+            // // privilegirebuli operatorebi xo gaxsovs pirveli 1.() 2. */ 3. +- da bolo 4 adgilzea >< anu tu funqciashi jer mimateba gamokleba moxdeba mere shedareba.=-
+            // console.log(3>5-5);
+
+
+            // console.log(5 === '5.00');
+
+            // if(false){
+            //     console.log('Hello');
+            // } else{
+            //     console.log('else'); 
+            // }
+
+            // const age = 15;
+
+            // if(age >= 16) {
+            //     console.log('You can drive');
+            //     console.log('Congrats');
+            // } else if (age >= 14) {
+            //     console.log('Almost there!');
+            // } else {
+            //     console.log('You can not drive'); 
+            // }
+            
+        // AND operator
+
+        // console.log(true && false);
+        // console.log(0.2 >= 0 && 0.2 <= 1/3);
+
+        // // OR operator
+        // console.log(true || false);
+       
+        // //NOT operatori ! nishani anu sapirispirod moqmedebs wer true s false a, wer false s true a da ase shemdeg.
+        // console.log(!true); 
+        
+        // gvaqvs Falsy values: false 0 '' NaN undefined null, magalitad consol.log shi ro chavwerot frchxilebshi 0 uechvelad false dawers, imito ro 0 apriori mcdari cvladia, aseve gvavs Truthy values anu martali cvladebi magalitad nulis garda nebismieri ricxvi ro sheiyvano dagiwers ro martalia.
+                /*
+        if(1){
+            console.log('truthy');
+        }
+
+        const cartQuantity = 5;
+        
+        if(cartQuantity){
+            console.log('cart has products');
+        }
+        console.log(!0);
+
+        console.log('text' / 5);
+
+        let variable1;
+        console.log(variable1);
+             */
+        // es qvevit rac weria igivea rac if(true){'truthy'}else{'falsy'}
+        // true ? 'truthy' : 'falsy'
+        const result = 0 ? 'truthy' : 'falsy';
+        console.log(result);
+
+        // Guard operator && marto da mnishvneloba ar aqvs, aseve es aris operatori romelic egreve imartivebs saqmes tu daafiqsira ro false ia cvladi pirveliveze gacherdeba da agar gadaamowmebs sxvebs.
+        false && console.log('hello');
+
+        const message = 5 && 'hello';
+        console.log(message);
+
+        //Default operator || marto an mnishvneloba ar aqvs, aseve es aris operatori romelic egreve imartivebs saqmes tu daafiqsira ro true a cvladi pirveliveze gacherdeba da agar gadaamowmebs yvelafers.
+
+        const currency = undefined|| 'USD';
+        console.log(currency);
+       </script>
+    </body>
+</html>
+
