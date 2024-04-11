@@ -25,6 +25,7 @@
         <p class="js-moves"></p>
         <p class="js-score"></p>
         
+        
       
         <button onclick="
             score.wins = 0,
@@ -113,12 +114,12 @@
                 document.querySelector('.js-moves')
                 .innerHTML = `You ${playerMove} - ${computerMove}Computer`;
 
-               
+            
             }
 
             function updateScoreElement(){
                 document.querySelector('.js-score')
-                .innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}, Tie: ${score.ties}`;
+                .innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`;
             }
 
            
